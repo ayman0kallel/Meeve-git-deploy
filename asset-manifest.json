@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Meeve-git-deploy/static/css/main.03b039af.css",
-    "main.js": "/Meeve-git-deploy/static/js/main.c05d3d4e.js",
+    "main.js": "/Meeve-git-deploy/static/js/main.18b60704.js",
     "index.html": "/Meeve-git-deploy/index.html",
     "main.03b039af.css.map": "/Meeve-git-deploy/static/css/main.03b039af.css.map",
-    "main.c05d3d4e.js.map": "/Meeve-git-deploy/static/js/main.c05d3d4e.js.map"
+    "main.18b60704.js.map": "/Meeve-git-deploy/static/js/main.18b60704.js.map"
   },
   "entrypoints": [
     "static/css/main.03b039af.css",
-    "static/js/main.c05d3d4e.js"
+    "static/js/main.18b60704.js"
   ]
 }
