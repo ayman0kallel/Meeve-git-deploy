@@ -43,7 +43,7 @@ function SignUp() {
     }
 
     try {
-      const response = await Axios.post('https://meeveapi.onrender.com:5000/users', userData);
+      const response = await Axios.post('https://meeveapi.onrender.com/users', userData);
 
       if (response.status === 201) {
         // Registration successful, redirect to login page
