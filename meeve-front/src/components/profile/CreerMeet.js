@@ -100,7 +100,7 @@ const theme = createTheme({
     useEffect(() => {
       const fetchAllSports = async () => {
         try {
-            const res = await axios.get("http://localhost:5000/sports")
+            const res = await axios.get("https://meeveapi.onrender.com/sports")
             setSports(res.data);
         } catch(err) {
             console.log(err)
@@ -175,7 +175,7 @@ const theme = createTheme({
           author_id: 1 // recup l'id de l'auteur (id user)
         };
         console.log("Meet Data:", meetData);
-        const response = await axios.post("http://localhost:5000/meet", meetData);
+        const response = await axios.post("https://meeveapi.onrender.com/meet", meetData);
         console.log(response.data);
 
       } catch(err) {
