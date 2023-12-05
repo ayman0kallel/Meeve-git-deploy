@@ -1,4 +1,4 @@
-import axios from 'axios';
+import * as React from 'react';
 import { useState } from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
@@ -47,19 +47,22 @@ export default function SignIn() {
     };
 
     try {
-      const response = await axios.post('https://meeveapi.onrender.com/users/login', userData);
+      const response = await fetch('http://localhost:5000/users/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(userData),
+      });
 
       if (response.status === 200) {
-        const { token } = response.data;
-
-        // Store the token in localStorage
-        localStorage.setItem('token', token);
-
-        // Redirect to the dashboard or another page
-        navigate('/HomePage', { replace: true });
+        // Login successful, redirect to the dashboard or another page
+        navigate('/HomePage',{ replace: true });
       } else if (response.status === 401) {
+        // Unauthorized, incorrect email or password
         setError('Invalid email or password');
       } else {
+        // Handle other response statuses and display an error message
         setError('Login failed. Please try again later.');
       }
     } catch (error) {
