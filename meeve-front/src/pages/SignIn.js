@@ -47,7 +47,7 @@ export default function SignIn() {
     };
 
     try {
-      const response = await fetch('http://bmh2im2ylfllimnghqfq-mysql.services.clever-cloud.com/users/login', {
+      const response = await fetch('https://bmh2im2ylfllimnghqfq-mysql.services.clever-cloud.com/users/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
