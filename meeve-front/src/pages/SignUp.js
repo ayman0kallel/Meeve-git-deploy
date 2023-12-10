@@ -35,7 +35,7 @@ function SignUp() {
     };
 
     try {
-      const response = await Axios.post('http://localhost:5000/users', userData);
+      const response = await Axios.post('http://bmh2im2ylfllimnghqfq-mysql.services.clever-cloud.com/users', userData);
 
       if (response.status === 201) {
         navigate('/'); // Redirect upon successful registration
