@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Meeve-git-deploy/static/css/main.fe63860e.css",
-    "main.js": "/Meeve-git-deploy/static/js/main.8c9186f4.js",
+    "main.js": "/Meeve-git-deploy/static/js/main.3e61a6d9.js",
     "static/media/avatar1.jpg": "/Meeve-git-deploy/static/media/avatar1.c69873e42aeff868337f.jpg",
     "static/media/avatar3.jpg": "/Meeve-git-deploy/static/media/avatar3.42be9ca32b9f4059c996.jpg",
     "index.html": "/Meeve-git-deploy/index.html",
     "main.fe63860e.css.map": "/Meeve-git-deploy/static/css/main.fe63860e.css.map",
-    "main.8c9186f4.js.map": "/Meeve-git-deploy/static/js/main.8c9186f4.js.map"
+    "main.3e61a6d9.js.map": "/Meeve-git-deploy/static/js/main.3e61a6d9.js.map"
   },
   "entrypoints": [
     "static/css/main.fe63860e.css",
-    "static/js/main.8c9186f4.js"
+    "static/js/main.3e61a6d9.js"
   ]
 }
